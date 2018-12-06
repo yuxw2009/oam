@@ -1,0 +1,99 @@
+ .sip_track_layout{
+     font-size: 14px;
+     line-height: 25px;
+     .ant-btn:last-child{
+         display: none;
+     }
+     .istrack{
+        .ant-btn:first-child{
+            display: none;
+        }
+     }
+ }
+ .sip-track-slider{
+    flex: 0 0 300px !important;
+    width: 300px !important;
+    background: #fff;
+  }
+  .filter_input{
+      height: 30px;
+      width: 200px;  
+      background:#ffffff;
+      font-size: 13px;
+  }
+  .sip_input{
+       height: 35px;  
+       max-width: 140px; 
+       width: 50%;
+       display: inline-block; 
+       background:#fff !important;
+       border: 1px solid #690 !important;
+       color: #343434 !important;
+       font-size: 13px;
+  }
+  .direction_box{
+      position: relative;
+      width: 95%;
+      margin: 0 auto;
+      height: 92%;
+      border-left: 1px solid #108ee9;
+      border-right: 1px solid #108ee9;
+      overflow-y: auto;
+      overflow-x: hidden;
+      li{
+          position: relative;
+          padding-top: 10px;
+          padding-left: 15px;
+          line-height: 18px;
+          span{
+              padding: 3px;
+          }
+          span:first-child{
+              margin-right: 10px;
+          }
+         em{
+              border-bottom: 1px solid blue;
+              margin-left: -15px;
+              display: block;
+         }
+         i{
+            width: 10px;
+            height: 10px;
+            border-top: 1px solid blue;
+            border-left: 1px solid blue;
+            transform:rotate(135deg);
+            display: block; 
+            position: absolute;
+            right: 1px;
+            bottom: -4px;         
+         } 
+          i.recv{
+            transform:rotate(-50deg);
+            left: 1px;     
+         }      
+      }
+      
+  }
+  
+li.blue{
+     color: red;
+     em{
+          border-bottom: 1px solid red;
+          display: block;
+     }
+     i{
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid red;
+        border-left: 1px solid red;
+        transform:rotate(135deg);
+        display: block; 
+        position: absolute;
+        right: 1px;
+        bottom: -4px;         
+     }     
+}
+
+
+
+
